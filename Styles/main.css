@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+}
+
+h1 {
+    font-family: 'Stalemate', cursive; 
+    color: #66BFBF;
+    
+}
+
+h2 {
+    margin: 20px auto;
+    color: #66BFBF;
+    font-size: 2.5rem;
+}
+
+h3 {
+    margin: 20px auto;
+    color: #11999E;
+}
+
+p {
+    color: #40514E;
+    line-height: 30px;
+}
+
+a {
+    color: #11999E;
+}
+
+table {
+    text-align: left;
+    border-spacing: 20px;
+    margin: auto;
+}
+
+.rule-wrapper {
+    height: 30px;
+    width: 150px;
+    display: inline-block;
+    margin: auto;
+}
+
+.left, .center, .right {
+    position: absolute;
+    background-color: #2B7A78;
+    width: 10px;
+    height: 10px;
+    border-radius: 2em;
+}
+
+.left {
+    margin-left: 0px;
+}
+
+.center {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.right {
+    margin-left: 140px;
+}
+
+.top-container {
+    background-color: #dffffe;
+    position: relative;
+    height: 680px;
+}
+
+.headline {
+    position: absolute;
+    width: 650px;
+    height: 240px;
+    top: 140px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+.headline h1 {
+    margin: 0 auto;
+    font-family: 'Stalemate', cursive;
+    font-size: 5.625rem;
+}
+
+.headline h2 {
+    font-weight: normal;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.mountain {
+    position: absolute;
+    width: 34.375rem;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+.middle-container {
+    position: relative;
+    padding-top: 50px;
+}
+
+.profile {
+    margin: 50px auto;
+}
+
+.skills {
+    margin: 50px auto;
+}
+
+.skills-row {
+    margin: 50px auto;
+    width: 50%;
+}
+
+.contact-me {
+    margin: 50px auto;
+    padding: 0 20px 20px 20px;
+    height: 250px;
+}
+
+.btn {
+    position: relative;
+    background-image: linear-gradient(#3AAFA9, #11999E);
+    color: white;
+    padding: 11px 20px 7px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    top: 30px;
+    vertical-align: middle;
+}
+
+.bottom-container {
+    background-color: #DEF2F1;
+    height: 150px;
+    padding: 45px;
+}
+
+.footer-link {
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.bottom-container p {
+    color: #2B7A78;
+    position: relative;
+    margin: 30px auto;
+    font-size: 0.75rem;
+}
